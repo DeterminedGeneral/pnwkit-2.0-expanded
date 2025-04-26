@@ -17,6 +17,9 @@
      "@types/superagent": "^4.1.18",
      "typescript": "^5.4.5"
    },
+   "scripts": {
+      "install-and-build": "npm install --save-dev @types/superagent @types/memoizee && tsc"
+   },
    "repository": {
      "type": "git",
      "url": "git+https://github.com/DeterminedGeneral/pnwkit-2.0-expanded.git"
