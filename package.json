@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darkblade1078/pnwkit-2.0.git"
+    "url": "git+https://github.com/DeterminedGeneral/pnwkit-2.0-expanded/.git"
   },
   "bugs": {
-    "url": "https://github.com/darkblade1078/pnwkit-2.0/issues"
+    "url": "https://github.com/DeterminedGeneral/pnwkit-2.0-expanded/issues"
   },
-  "homepage": "https://github.com/darkblade1078/pnwkit-2.0#readme"
+  "homepage": "https://github.com/DeterminedGeneral/pnwkit-2.0-expanded#readme"
 }
