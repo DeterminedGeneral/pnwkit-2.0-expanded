@@ -17,6 +17,11 @@
      "@types/superagent": "^4.1.18",
      "typescript": "^5.4.5"
    },
+   "scripts": {
+     "build": "tsc",
+     "prepare": "npm run build",
+     "postinstall": "npm run build"
+   },
    "repository": {
      "type": "git",
      "url": "git+https://github.com/DeterminedGeneral/pnwkit-2.0-expanded.git"
