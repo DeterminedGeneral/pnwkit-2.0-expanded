@@ -2,10 +2,11 @@
    "name": "pnwkit-2.0-expanded",
    "version": "1.5.50",
    "description": "The reincarnation of pnwkit by BSNK",
-   "main": "src/index.ts",
-   "module": "src/index.ts",
-   "main": "src/index.js",
-   "module": "src/index.js",
+   "main": "build/src/index.js",
+   "module": "build/src/index.js",
+   "files": [
+     "build"
+   ],
    "author": "determinedgeneral",
    "license": "ISC",
    "dependencies": {
