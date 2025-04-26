@@ -10,6 +10,7 @@ import GraphQL from '../../services/GraphQL';
 export default async function apiKeyDetailsQuery(
     this: Kit,
     query: string,
+    apiKey?: string,
 ): Promise<apiKeyDetails> {
     const res = await GraphQL.makeCall(`
     {
@@ -17,7 +18,7 @@ export default async function apiKeyDetailsQuery(
         ${query}
       }
     }
-  `, this.apiKey);
+  `, apiKey ?? this.apiKey);
 
     this.setRateLimit(res.rateLimit);
 
