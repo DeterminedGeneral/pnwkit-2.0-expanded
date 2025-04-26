@@ -4,9 +4,6 @@
   "description": "The reincarnation of pnwkit by BSNK",
   "main": "src/index.ts",
   "module": "src/index.ts",
-  "files": [
-    "src"
-  ],
   "author": "determinedgeneral",
   "license": "ISC",
   "dependencies": {
