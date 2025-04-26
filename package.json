@@ -1,5 +1,5 @@
 {
-  "name": "pnwkit-2.0",
+  "name": "pnwkit-2.0-expanded",
   "version": "1.5.50",
   "description": "The reincarnation of pnwkit by BSNK",
   "main": "build/src/index.js",
@@ -7,7 +7,7 @@
   "files": [
     "build"
   ],
-  "author": "darkblade",
+  "author": "determinedgeneral",
   "license": "ISC",
   "dependencies": {
     "memoize": "^0.1.1",
