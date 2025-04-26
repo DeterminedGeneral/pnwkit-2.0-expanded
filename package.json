@@ -18,7 +18,7 @@
      "typescript": "^5.4.5"
    },
    "scripts": {
-      "install-and-build": "tsc"
+      "postinstall": "tsc"
    },
    "repository": {
      "type": "git",
