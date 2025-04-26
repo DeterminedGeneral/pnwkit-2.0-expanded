@@ -4,9 +4,6 @@
    "description": "The reincarnation of pnwkit by BSNK",
    "main": "build/src/index.js",
    "module": "build/src/index.js",
-   "files": [
-     "build"
-   ],
    "author": "determinedgeneral",
    "license": "ISC",
    "dependencies": {
