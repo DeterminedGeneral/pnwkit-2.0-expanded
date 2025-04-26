@@ -2,8 +2,8 @@
   "name": "pnwkit-2.0-expanded",
   "version": "1.5.50",
   "description": "The reincarnation of pnwkit by BSNK",
-  "main": "src/index.ts",
-  "module": "src/index.ts",
+  "main": "src",
+  "module": "src",
   "files": [
     "build"
   ],
