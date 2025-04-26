@@ -6,6 +6,10 @@
   "module": "src/index.js",
   "author": "determinedgeneral",
   "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
   "dependencies": {
     "memoize": "^0.1.1",
     "memoizee": "^0.4.15",
