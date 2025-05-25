@@ -1,3 +1,4 @@
 node_modules
 test.ts
 *.ts
+!pnwkit-2.0-expanded.d.ts
