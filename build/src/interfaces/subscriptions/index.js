@@ -1,0 +1,40 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.subscriptionCluster = exports.subscriptionModel = exports.subscriptionEvent = void 0;
+var subscriptionEvent;
+(function (subscriptionEvent) {
+    subscriptionEvent["CREATE"] = "create";
+    subscriptionEvent["UPDATE"] = "update";
+    subscriptionEvent["DELETE"] = "delete";
+})(subscriptionEvent || (exports.subscriptionEvent = subscriptionEvent = {}));
+var subscriptionModel;
+(function (subscriptionModel) {
+    subscriptionModel["ALLIANCE"] = "alliance";
+    subscriptionModel["ALLIANCEPOSITION"] = "alliance_position";
+    subscriptionModel["BANKREC"] = "bankrec";
+    subscriptionModel["BBGAME"] = "bbgame";
+    subscriptionModel["BBTEAM"] = "bbteam";
+    subscriptionModel["BOUNTY"] = "bounty";
+    subscriptionModel["CITY"] = "city";
+    subscriptionModel["NATION"] = "nation";
+    subscriptionModel["TAXBRACKET"] = "tax_bracket";
+    subscriptionModel["TRADE"] = "trade";
+    subscriptionModel["TREATY"] = "treaty";
+    subscriptionModel["WARATTACK"] = "warattack";
+    subscriptionModel["WAR"] = "war";
+    subscriptionModel["TREASURETRADE"] = "treasure_trade";
+    subscriptionModel["EMBARGO"] = "embargo";
+    subscriptionModel["ACCOUNT"] = "account";
+})(subscriptionModel || (exports.subscriptionModel = subscriptionModel = {}));
+var subscriptionCluster;
+(function (subscriptionCluster) {
+    subscriptionCluster["NORTHVIRGINIA"] = "mt1";
+    subscriptionCluster["OHIO"] = "us2";
+    subscriptionCluster["OREGON"] = "us3";
+    subscriptionCluster["IRELAND"] = "eu";
+    subscriptionCluster["SINGAPORE"] = "ap1";
+    subscriptionCluster["MUMBAI"] = "ap2";
+    subscriptionCluster["TOKYO"] = "ap3";
+    subscriptionCluster["SYDNEY"] = "ap4";
+    subscriptionCluster["SAOPAULO"] = "sa1";
+})(subscriptionCluster || (exports.subscriptionCluster = subscriptionCluster = {}));
