@@ -1,0 +1,31 @@
+{
+   "name": "pnwkit-2.0-expanded",
+   "version": "1.5.50",
+   "description": "The reincarnation of pnwkit by BSNK",
+   "main": "build/src/index.js",
+   "module": "build/src/index.js",
+   "author": "determinedgeneral",
+   "license": "ISC",
+   "dependencies": {
+     "memoize": "^0.1.1",
+     "memoizee": "^0.4.15",
+     "pusher-js": "^8.0.2",
+     "superagent": "^8.0.9"
+   },
+   "devDependencies": {
+     "@types/memoizee": "^0.4.8",
+     "@types/superagent": "^4.1.18",
+     "typescript": "^5.4.5"
+   },
+   "scripts": {
+      "install-and-build": "npm install --save-dev @types/superagent @types/memoizee && tsc"
+   },
+   "repository": {
+     "type": "git",
+     "url": "git+https://github.com/DeterminedGeneral/pnwkit-2.0-expanded.git"
+   },
+   "bugs": {
+     "url": "https://github.com/DeterminedGeneral/pnwkit-2.0-expanded/issues"
+   },
+   "homepage": "https://github.com/DeterminedGeneral/pnwkit-2.0-expanded#readme"
+ }
